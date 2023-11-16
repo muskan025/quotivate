@@ -1,0 +1,82 @@
+/*primary*/
+/*secondary*/
+/*accent*/
+/*background*/
+/*text*/
+.intro {
+  position: relative;
+  height: 20vh;
+  width: 100%;
+  padding-left: 10rem;
+  padding-bottom: 13rem;
+  padding-top: 2rem;
+  background-color: black;
+}
+.intro span {
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #3ABBC9;
+}
+.intro p {
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
+  font-size: 1rem;
+  margin-top: 1.5rem;
+  margin-left: 2rem;
+  width: 37rem;
+  color: white;
+  animation: slide 2s ease;
+}
+@keyframes slide {
+  0% {
+    transform: translateX(400px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.intro img {
+  width: 13.5rem;
+  height: 13.5rem;
+  border-radius: 50%;
+  float: left;
+  shape-outside: circle(41.76% at 142px 114px);
+  shape-margin: 1.5rem;
+  margin-right: 1rem;
+  box-shadow: 0 0 8rem 0.5rem white;
+  animation: scaling 2s ease;
+}
+@keyframes scaling {
+  0% {
+    transform: scale(1.6);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.intro [class^=star] {
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  box-shadow: 0 0 aliceblue;
+}
+.intro .star1 {
+  right: 12rem;
+  top: 1rem;
+}
+.intro .star2 {
+  right: 14rem;
+  top: 3rem;
+}
+.intro .star3 {
+  right: 16rem;
+  top: 0rem;
+}
+.intro .star4 {
+  right: 19rem;
+  top: 1rem;
+}
+.intro .star5 {
+  right: 18rem;
+  top: 4rem;
+}/*# sourceMappingURL=Header.css.map */

@@ -1,0 +1,35 @@
+@import'./-var.scss';
+ 
+
+ .App{
+  overflow-x: hidden;
+  color: #151b2c;
+
+//   background-color: rgba(240, 243, 240, 0.908);
+
+  }
+
+.btn{
+padding:11px 26px 11px 26px;
+width:max-content;
+outline: none;
+border:none;
+color:white;
+border-radius: 34px;
+background-color: $blue;
+
+&:hover{
+    cursor: pointer;
+}
+}
+
+ a{
+  text-decoration: none;
+  &:visited{
+    color: inherit;
+  }
+  &:hover{
+    color: $blue;
+    text-decoration: underline;
+  }
+ }

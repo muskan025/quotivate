@@ -1,0 +1,142 @@
+//  @import '../../-var.scss';
+//  .navbar{
+//     display: flex;
+//     justify-content: space-between;
+//     height: 10vh;
+//     padding-inline: 2rem;
+//     background: #000000f0;
+    
+    
+//   }
+
+//  .n-left{
+//     flex: 1;
+//     display: flex;
+//     align-items: center;
+// gap:4rem;
+//   justify-content: flex-start;
+//  }
+
+//  .n-name{
+//     font-size: 1.3rem;
+//     font-weight: bolder;
+//     color: $blue;
+//  }
+//  .n-list{
+//    width: 80%;
+//  }
+//  .n-list>ul{
+//     display: flex;
+//     justify-content: space-between;
+//     gap:2rem;
+   
+
+//     .pgs-left{
+//       display: flex;
+//       gap:2rem;
+
+//       &>li>*{
+//          // font-weight: bold;
+//          // font-size: 1.2rem;
+//       }
+//     }
+//     li{
+//         font-weight:bold; 
+// color: white;
+//         &:hover{
+//             color:$blue;
+//             cursor: pointer;
+//             text-decoration:underline;
+//         }
+//     }
+    
+//  }
+//  a{
+//    text-decoration:none;
+//   //  &:visited{
+//   //    color:inherit;
+//   //  }
+//  }
+
+//  .active{
+//   color:$blue;
+ 
+//   text-decoration:underline;
+// }
+ 
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+  align-items: center;
+	height: 10vh;
+	padding:0 2rem;
+	background: rgba(0, 0, 0, 0.9411764706);
+	color: white;
+ 
+}
+
+.pgs-left{
+  display: flex;
+  gap: 4rem;
+}
+.n-name {
+	font-size: 1.3rem;
+	font-weight: bolder;
+	color: #3ABBC9;
+}
+ul {
+	list-style-type: none;
+	padding-left: 0;
+	display: flex;
+    align-items: center;
+	gap: 4rem;
+ 
+}
+ li{
+  width: 100%;
+
+}
+.active{
+  color:$blue !important;
+  text-decoration: underline;
+  }
+ .n-quotes{
+  position:relative;
+ }
+ .dropdown>li>a{
+  display: block;
+padding:0.3rem;
+ color: black;
+}
+ 
+  .dropdown {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0;
+  z-index:1;
+  padding: 0.5rem 1rem;
+  margin: 0.8rem 0;
+ 
+  position: absolute;
+   width: 13rem;
+  background-color: #fbfafaa1;
+ }
+ 
+  .dropdown::before {
+    content: "";
+    position: absolute;
+    top: -0.9rem;
+    left: 0;
+    border: 1px solid #ffffff0f;
+    width: 1rem;
+    border-style: solid;
+    border-width: 1rem 1rem 0 0;
+     border-left: 1rem solid #fbfafaa1;
+    border-top: 1rem solid transparent;
+     border-right: 1rem solid transparent;
+  }
+
+
+ 

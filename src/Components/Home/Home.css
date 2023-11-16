@@ -1,0 +1,188 @@
+/*primary*/
+/*secondary*/
+/*accent*/
+/*background*/
+/*text*/
+.home {
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  min-height: 70vh;
+  position: relative;
+  background: url("../../images/bg4.jpg"), linear-gradient(to left, #3ABBC9, black);
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: overlay;
+}
+.hero .h-content {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding-left: 2rem;
+  margin-top: 4rem;
+}
+.hero .h-content span {
+  font-size: 3.3rem;
+  position: relative;
+}
+.hero .h-content .inspiration {
+  background: linear-gradient(#3ABBC9, #FEEB51);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.hero .h-content h2 {
+  font-size: 1.3em;
+  color: #E6E6E6;
+}
+.hero .h-content .h-btn {
+  margin-block: 2.5rem;
+  margin-bottom: 13rem;
+  transform: translate(8rem);
+}
+.hero .custom-shape-divider-bottom-1699720234 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  margin-bottom: -1px;
+}
+.hero .custom-shape-divider-bottom-1699720234 svg {
+  position: relative;
+  display: block;
+  width: calc(134% + 1.3px);
+  height: 234px;
+}
+.hero .custom-shape-divider-bottom-1699720234 .shape-fill {
+  fill: #FFFFFF;
+}
+
+.roll-up a {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  right: 0;
+  width: 130px;
+}
+
+.h-keypoints {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding-inline: 2rem;
+}
+
+.h-heading {
+  position: relative;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+.h-heading h1 {
+  font-size: 2.3rem;
+  text-align: center;
+  color: black;
+  padding-inline: 34px;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+.h-heading .custom-shape-divider-bottom-1699721916 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  margin-bottom: -1px;
+}
+.h-heading .custom-shape-divider-bottom-1699721916 svg {
+  position: relative;
+  display: block;
+  width: calc(104% + 1.3px);
+  height: 106px;
+  transform: rotateY(180deg);
+}
+.h-heading .custom-shape-divider-bottom-1699721916 .shape-fill {
+  fill: #FFFFFF;
+}
+
+.keypoints {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.keypoint {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.keypoint [class^=img-] {
+  position: relative;
+  width: 70vh;
+  min-height: 50vh;
+  backgroun-size: cover;
+}
+.keypoint .img-1 {
+  background: url("../../images/image-home/img-h1.jpg");
+}
+.keypoint .img-2 {
+  background: url("../../images/image-home/img-h2.jpg");
+}
+.keypoint .img-3 {
+  background: url("../../images/image-home/img-h3.jpg");
+}
+.keypoint .img-4 {
+  background: url("../../images/image-home/img-h4.jpg");
+}
+.keypoint [class^=img-]:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../../images/image-home/splash.jpg");
+  background-size: cover;
+  background-position: center;
+  mix-blend-mode: screen;
+}
+
+.point {
+  width: 15rem;
+}
+.point h2 {
+  font-weight: bold;
+  margin-block: 0.5rem;
+}
+.point p + .line {
+  margin-top: 0.5rem;
+  width: 100%;
+  height: 10px;
+  border-radius: 15rem;
+}
+
+.keypoint:nth-child(1) .point p + .line {
+  background-color: #F29907;
+}
+
+.keypoint:nth-child(2) .point p + .line {
+  background-color: #ACBCC3;
+}
+
+.keypoint:nth-child(3) .point p + .line {
+  background-color: #736F08;
+}
+
+.keypoint:nth-child(4) .point p + .line {
+  background-color: #053486;
+}/*# sourceMappingURL=Home.css.map */

@@ -1,0 +1,77 @@
+@import '../../-var.scss';
+ 
+.custom-shape-divider-top-1699796100 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+
+}
+
+.custom-shape-divider-top-1699796100 svg {
+    position: relative;
+    display: block;
+    width: calc(130% + 1.3px);
+    height: 99px;
+}
+
+.custom-shape-divider-top-1699796100 .shape-fill {
+    fill: #FFFFFF;
+}
+
+footer{
+    position: relative;
+    // min-height: 10vh;
+ margin-top: 3rem;
+    padding: 4rem;
+    background-color: black;
+    color: white;
+     line-height: 1.5;
+
+}
+.f-main-item>ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+h2{
+    padding-bottom: 0.625rem;
+    font-size: 1.375rem;
+}
+.ft-main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.f-main-item{
+    padding: 1.25rem;
+    min-width: 12.5rem;
+}
+.f-legal{
+    display: flex;
+    justify-content: space-between;
+}
+
+section{
+    display: flex;
+}
+@media only screen and (min-width:29.8125rem){
+    .f-main{
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (min-width:77.5rem){
+    .f-main{
+        justify-content: space-evenly;
+    }
+}
+
+.roll-up{
+    width:140px;
+}

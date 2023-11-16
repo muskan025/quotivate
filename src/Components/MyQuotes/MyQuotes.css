@@ -1,0 +1,15 @@
+/*primary*/
+/*secondary*/
+/*accent*/
+/*background*/
+/*text*/
+.my-quotes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cards-container {
+  align-self: center;
+  margin-top: 4rem;
+}/*# sourceMappingURL=MyQuotes.css.map */

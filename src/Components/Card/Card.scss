@@ -1,0 +1,62 @@
+@import '../../-var.scss';
+
+ 
+ 
+  .card {
+    display: grid;
+   
+    position: relative;
+     justify-content: center;
+    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.3);
+    width: 20rem;
+    min-height: 10rem;
+    border-radius: 1rem;
+    background: url('./cardbg.jpg');
+     background-size: cover;
+    color: white;
+     align-items: center;
+  }
+
+.c-quote{
+      display: flex;
+flex-direction: column;
+  gap:0.5rem;
+  padding-inline:1.5rem;
+  .quote{
+    font-size: 1rem;
+}
+     .author{
+align-self: flex-end;
+font-style: italic;
+     }
+}
+
+.c-btm {
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	bottom: 0;
+	/* margin-bottom: -2rem; */
+	background-color: rgba(0, 0, 0, 0.265);
+	width: 90%;
+	padding: 0.5rem;
+	border-radius: 1rem;
+	padding-inline: 1rem;
+
+    .c-lk-sh {
+
+      .share {
+        margin-left: 2rem;
+        
+      }
+     .like>*:hover,.share>*:hover{
+       
+      transform:scale(1.5); 
+     }
+    }
+    span:hover{
+        cursor: pointer;
+        transform:skew(-15deg) scale(1.5);  
+        
+       }
+}

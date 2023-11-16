@@ -1,0 +1,139 @@
+happy :6,8,9
+sad:1,3,4
+angry:5,
+fear:2,lone paths
+
+HAPPY
+
+img1:
+img2:
+img3:
+img4:
+img5:
+img6:
+img7:
+img8:
+img9:
+img10:
+
+__________________
+
+SAD
+img1: https://wallpapers.net/web/wallpapers/sunset-over-a-serene-sea/thumbnail/lg.jpg
+
+img2:https://i.pinimg.com/1200x/8a/96/31/8a9631d9dea5df3c69b9c6576eef8bcc.jpg
+
+img3:https://lh3.googleusercontent.com/H_suI7EvANiVgom-8wpgKDdV1LIWrN6BWczLElN_U0SPbztvSVFBZMjq2n9ktnArhodeurwpmAMufY6Sig92NCNMdA=w640-h400-e365-rj-sc0x00ffffff
+
+img4:https://beaversdigest.orangemedianetwork.com/wp-content/uploads/2022/06/chris-leboutillier-be8mnFXzBgo-unsplash-900x600.jpg
+
+img5:https://e0.pxfuel.com/wallpapers/1006/927/desktop-wallpaper-seascape-seashore-sunset-ocean-waves-beach-purple-sky-nature-beach-sunset-ocean-waves.jpg
+
+img6: https://i.pinimg.com/736x/02/ee/13/02ee132f5cdc5d589b484a021b0835b4.jpg
+
+img7:https://www.euractiv.com/wp-content/uploads/sites/2/2017/09/Deforestation-800x577.jpg
+
+img8:https://media.istockphoto.com/id/1033388788/photo/big-panoramic-photo-of-multicolor-autumn-leaves-background-amazing-multicolor-autumn.jpg?s=612x612&w=0&k=20&c=mQltc_Fd2J9hoK5aHCK25Oawv-H9mhykTbU4HFsOVQU=
+
+img9:https://wallpaperswide.com/download/yellowed_autumn_leaves-wallpaper-960x600.jpg
+
+img10:https://img.freepik.com/premium-photo/jasna-lake-slovenia_548832-6122.jpg?size=626&ext=jpg
+
+____________________
+ANGRY
+img1:
+img2:
+img3:
+img4:
+img5:
+img6:
+img7:
+img8:
+img9:
+img10:
+
+___________________
+FEAR 
+img1:https://c4.wallpaperflare.com/wallpaper/344/487/667/nature-forest-wallpaper-preview.jpg
+
+img2:
+img3:
+img4:
+img5:
+img6:
+img7:
+img8:
+img9:
+img10:
+
+
+
+_________________________________________________________________________________
+
+
+{
+  "quotes": [
+    {
+      "id": 1,
+      "image": "https://wallpapers.net/web/wallpapers/sunset-over-a-serene-sea/thumbnail/lg.jpg",
+      "quote": "You are stronger than you think.",
+      "author": "Anonymous"
+    },
+    {
+      "id": 2,
+      "image": "https://i.pinimg.com/1200x/8a/96/31/8a9631d9dea5df3c69b9c6576eef8bcc.jpg",
+      "quote": "Every cloud has a silver lining.",
+      "author": "Proverb"
+    },
+    {
+      "id": 3,
+      "image": "https://lh3.googleusercontent.com/H_suI7EvANiVgom-8wpgKDdV1LIWrN6BWczLElN_U0SPbztvSVFBZMjq2n9ktnArhodeurwpmAMufY6Sig92NCNMdA=w640-h400-e365-rj-sc0x00ffffff",
+      "quote": "Life is 10% what happens to us and 90% how we react to it.",
+      "author": "Charles R. Swindoll"
+    },
+    {
+      "id": 4,
+      "image": "https://beaversdigest.orangemedianetwork.com/wp-content/uploads/2022/06/chris-leboutillier-be8mnFXzBgo-unsplash-900x600.jpg",
+      "quote": "The darkest nights produce the brightest stars.",
+      "author": "John Green"
+    },
+    {
+      "id": 5,
+      "image": "https://e0.pxfuel.com/wallpapers/1006/927/desktop-wallpaper-seascape-seashore-sunset-ocean-waves-beach-purple-sky-nature-beach-sunset-ocean-waves.jpg",
+      "quote": "A smooth sea never made a skilled sailor.",
+      "author": "Franklin D. Roosevelt"
+    },
+    {
+      "id": 6,
+      "image": "https://i.pinimg.com/736x/02/ee/13/02ee132f5cdc5d589b484a021b0835b4.jpg",
+      "quote": "Happiness can be found even in the darkest of times, if one only remembers to turn on the light.",
+      "author": "J.K. Rowling"
+    },
+    {
+      "id": 7,
+      "image": "https://www.euractiv.com/wp-content/uploads/sites/2/2017/09/Deforestation-800x577.jpg",
+      "quote": "It's okay not to be okay sometimes.",
+      "author": "Anonymous"
+    },
+    {
+      "id": 8,
+      "image": "https://media.istockphoto.com/id/1033388788/photo/big-panoramic-photo-of-multicolor-autumn-leaves-background-amazing-multicolor-autumn.jpg?s=612x612&w=0&k=20&c=mQltc_Fd2J9hoK5aHCK25Oawv-H9mhykTbU4HFsOVQU=",
+      "quote": "The only way out is through.",
+      "author": "Robert Frost"
+    },
+    {
+      "id": 9,
+      "image": "https://wallpaperswide.com/download/yellowed_autumn_leaves-wallpaper-960x600.jpg",
+      "quote": "Tough times never last, but tough people do.",
+      "author": "Robert H. Schuller"
+    },
+    {
+      "id": 10,
+      "image": "https://img.freepik.com/premium-photo/jasna-lake-slovenia_548832-6122.jpg?size=626&ext=jpg",
+      "quote": "In the middle of every difficulty lies opportunity.",
+      "author": "Albert Einstein"
+    }
+  ]
+}
+
+

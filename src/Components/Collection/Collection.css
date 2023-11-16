@@ -1,0 +1,23 @@
+.collection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.saved-cards {
+  display: grid;
+  gap: 4rem;
+  justify-content: center;
+  padding-inline: 4rem;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 4rem;
+}
+.saved-cards .c-btm .save {
+  display: none;
+}
+
+.c-mssg {
+  font-weight: bold;
+  margin: 0 auto;
+  margin-top: -3rem;
+}/*# sourceMappingURL=Collection.css.map */

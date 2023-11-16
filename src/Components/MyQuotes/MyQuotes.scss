@@ -1,0 +1,12 @@
+@import '../../-var.scss';
+.my-quotes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+}
+
+.cards-container{
+    align-self: center;
+    margin-top: 4rem;
+}
