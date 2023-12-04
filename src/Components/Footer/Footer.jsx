@@ -7,7 +7,7 @@ export const Footer = () => {
     <footer>
     <section className='f-main'>
       <div className="f-main-item">
-        <h2>About Me</h2>
+        <h2>About Quotivate</h2>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt delectus culpa architecto iure non voluptatem sapiente earum aperiam repellat fugit!</p>
       </div>
   

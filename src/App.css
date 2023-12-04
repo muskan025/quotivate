@@ -6,6 +6,12 @@
 .App {
   overflow-x: hidden;
   color: #151b2c;
+  position: relative;
+}
+
+.container {
+  width: 80%;
+  max-width: 1100px;
 }
 
 .btn {
@@ -20,6 +26,23 @@
 }
 .btn:hover {
   cursor: pointer;
+  color: white;
+  text-decoration: none;
+  animation: jump 2s ease-out;
+}
+@keyframes jump {
+  0% {
+    transform: translate(12rem, -1.9rem);
+  }
+  50% {
+    transform: translate(12rem, 1.5rem);
+  }
+  50% {
+    transform: translate(12rem, -1.3rem);
+  }
+  100% {
+    transform: translate(12rem, -1.9rem);
+  }
 }
 
 a {

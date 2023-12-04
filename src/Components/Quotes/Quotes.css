@@ -6,7 +6,6 @@
 .quotes {
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 .quest {
@@ -54,7 +53,10 @@
 }
 
 .cards-container {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(min(100%, 20rem), 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
   gap: 2rem;
+  justify-content: center;
+  width: 80%;
 }/*# sourceMappingURL=Quotes.css.map */

@@ -26,7 +26,7 @@
 footer {
   position: relative;
   margin-top: 3rem;
-  padding: 4rem;
+  padding: 6rem 3rem 0rem 3rem;
   background-color: black;
   color: white;
   line-height: 1.5;
@@ -48,20 +48,26 @@ h2 {
 .ft-main {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  flex-grow: 1;
 }
 
 .f-main-item {
-  padding: 1.25rem;
-  min-width: 12.5rem;
+  width: 100%;
+  max-width: 15rem;
 }
 
 .f-legal {
   display: flex;
   justify-content: space-between;
+  margin-top: 2rem;
+  margin-left: 3rem;
 }
 
 section {
   display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
 
 @media only screen and (min-width: 29.8125rem) {

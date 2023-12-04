@@ -9,6 +9,7 @@
         padding-bottom: 13rem;
         padding-top: 2rem;
         background-color: black;
+        
        
         span{
             font-weight: bold;
@@ -23,7 +24,7 @@
              margin-top: 1.5rem;
             margin-left: 2rem;
             width: 37rem;
-             color: white;
+              color: white;
              animation: slide 2s ease ;
         }
 @keyframes slide {
@@ -36,12 +37,13 @@
 }
        
 
-     img {
+     .intro-img {
 
       // width: clamp(5rem,13rem,13.5rem);
       // height:clamp(5rem,13rem,13.5rem);
         width: 13.5rem;
         height: 13.5rem;
+       
         border-radius: 50%;
         float: left;
         shape-outside: circle(41.76% at 142px 114px);

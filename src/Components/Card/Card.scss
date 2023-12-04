@@ -3,8 +3,8 @@
  
  
   .card {
-    display: grid;
-   
+    display: flex;
+   flex-wrap: wrap;
     position: relative;
      justify-content: center;
     box-shadow: 0 0px 15px rgba(0, 0, 0, 0.3);

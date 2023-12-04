@@ -7,7 +7,7 @@ export const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="pgs-left">
-        <p className="n-name">Quotivation</p>
+        <p className="n-name">Quotivate</p>
 
         <ul style={{ listStyleType: "none" }}>
           <li>

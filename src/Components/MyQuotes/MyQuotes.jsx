@@ -13,7 +13,7 @@ export const MyQuotes = () => {
      <Header img={path} heading='My Quotes !' para={<p>
       Where I share simple musings from life's daily dance.
       <br />
-      No grandeur here, just reflections inspired by everyday moments and a sprinkle of humor.
+      No grandeur here, just reflections inspired by everyday moments .
       <br />
       Discover a quote that resonates, makes you smile, or brings fresh perspectives to your day.
     </p>}/>

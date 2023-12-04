@@ -26,7 +26,8 @@ export const Home = () => {
             <br />
             lighting up your life with inspiration and insight.
           </h2>
-          <Link to='/my-quotes' className="btn h-btn">Get Inspired</Link>
+          {/* <span className="inspired">Get Inspired, </span> */}
+          <Link to='/my-quotes' className="btn h-btn">Get Quotivated</Link>
         </div>
        
         <Headersvg/>

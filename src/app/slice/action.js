@@ -7,7 +7,7 @@ const initialState = {
       "image": "image_url_1.jpg",
       "quote": "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.",
       "author": "Albert Schweitzer",
-      "like": 0,
+      "like": 100,
       "save": 0
     },
     {
@@ -257,24 +257,21 @@ export const counterSlice = createSlice({
   reducers: {
     
     collection: (state, action) => {
-      state.savedQuotes = [...state.savedQuotes, action.payload]
+       state.savedQuotes = [...state.savedQuotes, action.payload]
     },
     likeCountHappy:(state,action)=>{
-        // state.happyquotes[action.payload]=state.happyquotes[action.payload].like+=1
-         state.happyQuotes[action.payload].like += 1;
+   
+             state.happyQuotes[action.payload].like += 1;
+             
     },
-    // likeCountSad:(state,action)=>{
-    //     state.sadquotes[action.payload]=state.happyquotes[action.payload]+1
-
-    // },
+   
     likeCountAngry:(state,action)=>{
-        // state.angryquotes[action.payload]=state.angryquotes[action.payload].like+=1
-           state.angryQuotes[action.payload].like += 1;
+              state.angryQuotes[action.payload].like += 1;
 
     },
     likeCountAfraid:(state,action)=>{
-        // state.afraidquotes[action.payload]=state.angryquotes[action.payload].like+=1
-          state.afraidQuotes[action.payload].like += 1;
+         
+           state.afraidQuotes[action.payload].like += 1;
 
     },
   },

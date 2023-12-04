@@ -35,7 +35,7 @@
     transform: translateX(0);
   }
 }
-.intro img {
+.intro .intro-img {
   width: 13.5rem;
   height: 13.5rem;
   border-radius: 50%;

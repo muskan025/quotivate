@@ -4,7 +4,7 @@ export const happyquotes = [
     "image": "image_url_1.jpg",
     "quote": "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.",
     "author": "Albert Schweitzer",
-    "like": 0,
+    "like": 100,
     "save": 0
   },
   {
@@ -568,187 +568,188 @@ export const friendshipquotes = [
 ]
  
 export const humorousquotes = [
-    {
-      "id": 1,
-      "image": "insanity_image1.jpg",
-      "quote": "Insanity is doing the same thing over and over again and expecting different results.",
-      "author": "Albert Einstein"
-    },
-    {
-      "id": 2,
-      "image": "insanity_image2.jpg",
-      "quote": "The distance between insanity and genius is measured only by success.",
-      "author": "Bruce Feirstein"
-    },
-    {
-      "id": 3,
-      "image": "insanity_image3.jpg",
-      "quote": "Insanity is often the logic of an accurate mind overtasked.",
-      "author": "Oliver Wendell Holmes, Sr."
-    },
-    {
-      "id": 4,
-      "image": "insanity_image4.jpg",
-      "quote": "In individuals, insanity is rare; but in groups, parties, nations, and epochs, it is the rule.",
-      "author": "Friedrich Nietzsche"
-    },
-    {
-      "id": 5,
-      "image": "insanity_image5.jpg",
-      "quote": "Insanity is doing something in the same way and expecting a different outcome.",
-      "author": "Chinese Proverb"
-    },
-    {
-      "id": 6,
-      "image": "insanity_image6.jpg",
-      "quote": "Sanity and happiness are an impossible combination.",
-      "author": "Mark Twain"
-    },
-    {
-      "id": 7,
-      "image": "insanity_image7.jpg",
-      "quote": "The definition of insanity is doing the same thing over and over and expecting different results.",
-      "author": "Anonymous"
-    },
-    {
-      "id": 8,
-      "image": "insanity_image8.jpg",
-      "quote": "It is the height of insanity to live in accordance with the dictates of fear and superstition.",
-      "author": "Ernest Holmes"
-    },
-    {
-      "id": 9,
-      "image": "insanity_image9.jpg",
-      "quote": "Insanity is contagious.",
-      "author": "Joseph Heller"
-    },
-    {
-      "id": 10,
-      "image": "insanity_image10.jpg",
-      "quote": "In the fight between you and the world, back the world.",
-      "author": "Franz Kafka"
-    },
-    {
-      "id": 11,
-      "image": "insanity_image11.jpg",
-      "quote": "The insane are always mere guests on earth, eternal strangers carrying around broken decalogues that they cannot read.",
-      "author": "Vladimir Nabokov"
-    },
-    {
-      "id": 12,
-      "image": "insanity_image12.jpg",
-      "quote": "Insanity is a legal term. It is not a medical term.",
-      "author": "Tom Cruise"
-    },
-    {
-      "id": 13,
-      "image": "insanity_image13.jpg",
-      "quote": "In the world of the insane, the integrated man is a pariah.",
-      "author": "Anton LaVey"
-    },
-    {
-      "id": 14,
-      "image": "insanity_image14.jpg",
-      "quote": "The world is only as concrete as you are.",
-      "author": "David Mitchell"
-    },
-    {
-      "id": 15,
-      "image": "insanity_image15.jpg",
-      "quote": "Sanity is a cozy lie.",
-      "author": "Susan Sontag"
-    },
-    {
-      "id": 16,
-      "image": "insanity_image16.jpg",
-      "quote": "There is a fine line between genius and insanity. I have erased this line.",
-      "author": "Oscar Levant"
-    },
-    {
-      "id": 17,
-      "image": "insanity_image17.jpg",
-      "quote": "The whole world is an asylum.",
-      "author": "Jane Wagner"
-    },
-    {
-      "id": 18,
-      "image": "insanity_image18.jpg",
-      "quote": "Insanity is often the logic of an accurate mind overtasked.",
-      "author": "Oliver Wendell Holmes, Sr."
-    },
-    {
-      "id": 19,
-      "image": "insanity_image19.jpg",
-      "quote": "The world of the insane, in truth, is not so very different from that of the sane.",
-      "author": "Alfred Hitchcock"
-    },
-    {
-      "id": 20,
-      "image": "insanity_image20.jpg",
-      "quote": "Insanity is a logical response to an insane world. It's okay to be a little insane.",
-      "author": "Dr. John Geddes"
-    },
-    {
-      "id": 21,
-      "image": "insanity_image21.jpg",
-      "quote": "Insanity is the price you pay for a normal mind.",
-      "author": "Dan Castellaneta"
-    },
-    {
-      "id": 22,
-      "image": "insanity_image22.jpg",
-      "quote": "You're not insane. You're just ahead of the curve.",
-      "author": "The Joker"
-    },
-    {
-      "id": 23,
-      "image": "insanity_image23.jpg",
-      "quote": "Insanity is often the logic of an accurate mind overtasked.",
-      "author": "Oliver Wendell Holmes, Sr."
-    },
-    {
-      "id": 24,
-      "image": "insanity_image24.jpg",
-      "quote": "The edge... there is no honest way to explain it because the only people who really know where it is are the ones who have gone over.",
-      "author": "Hunter S. Thompson"
-    },
-    {
-      "id": 25,
-      "image": "insanity_image25.jpg",
-      "quote": "The greatest crimes in the world are not committed by people breaking the rules but by people following the rules. It's people who follow orders that drop bombs and massacre villages.",
-      "author": "Banksy"
-    },
-    {
-      "id": 26,
-      "image": "insanity_image26.jpg",
-      "quote": "People don't like to be meddled with. We tell them what to do, what to think. Don't run, don't walk. We're in their homes and in their heads and we haven't the right. We're meddlesome.",
-      "author": "River Tam, Firefly"
-    },
-    {
-      "id": 27,
-      "image": "insanity_image27.jpg",
-      "quote": "Some may never live, but the crazy never die.",
-      "author": "Hunter S. Thompson"
-    },
-    {
-      "id": 28,
-      "image": "insanity_image28.jpg",
-      "quote": "Just because you're paranoid doesn't mean they aren't after you.",
-      "author": "Joseph Heller"
-    },
-    {
-      "id": 29,
-      "image": "insanity_image29.jpg",
-      "quote": "I became insane, with long intervals of horrible sanity.",
-      "author": "Edgar Allan Poe"
-    },
-    {
-      "id": 30,
-      "image": "insanity_image30.jpg",
-      "quote": "Every normal man must be tempted, at times, to spit on his hands, hoist the black flag, and begin slitting throats.",
-      "author": "H.L. Mencken"
-    }
-  ]
+  {
+    "id": 1,
+    "image": "humor_image1.jpg",
+    "quote": "Why do programmers prefer dark mode? Because light attracts bugs.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 2,
+    "image": "humor_image2.jpg",
+    "quote": "I asked the librarian if the library had any books on paranoia. She whispered, 'They're right behind you.'",
+    "author": "Neil Gaiman"
+  },
+  {
+    "id": 3,
+    "image": "humor_image3.jpg",
+    "quote": "Why don't scientists trust atoms? Because they make up everything!",
+    "author": "Richard Feynman"
+  },
+  {
+    "id": 4,
+    "image": "humor_image4.jpg",
+    "quote": "I'm on a whiskey diet. I've lost three days already.",
+    "author": "W.C. Fields"
+  },
+  {
+    "id": 5,
+    "image": "humor_image5.jpg",
+    "quote": "Why did the scarecrow win an award? Because he was outstanding in his field!",
+    "author": "Maya Angelou"
+  },
+  {
+    "id": 6,
+    "image": "humor_image6.jpg",
+    "quote": "I told my wife she was drawing her eyebrows too high. She looked surprised.",
+    "author": "Mark Twain"
+  },
+  {
+    "id": 7,
+    "image": "humor_image7.jpg",
+    "quote": "Why don't skeletons fight each other? They don't have the guts!",
+    "author": "Ambrose Bierce"
+  },
+  {
+    "id": 8,
+    "image": "humor_image8.jpg",
+    "quote": "Parallel lines have so much in common. It's a shame they'll never meet.",
+    "author": "George Carlin"
+  },
+  {
+    "id": 9,
+    "image": "humor_image9.jpg",
+    "quote": "I used to play piano by ear, but now I use my hands and fingers.",
+    "author": "Ludwig van Beethoven"
+  },
+  {
+    "id": 10,
+    "image": "humor_image10.jpg",
+    "quote": "I'm reading a book on anti-gravity. It's impossible to put down!",
+    "author": "Isaac Newton"
+  },
+  {
+    "id": 11,
+    "image": "humor_image11.jpg",
+    "quote": "I told my computer I needed a break, and now it won't stop sending me vacation ads.",
+    "author": "Bill Gates"
+  },
+  {
+    "id": 12,
+    "image": "humor_image12.jpg",
+    "quote": "I only know 25 letters of the alphabet. I don't know y.",
+    "author": "George Carlin"
+  },
+  {
+    "id": 13,
+    "image": "humor_image13.jpg",
+    "quote": "Why don't scientists trust atoms? Because they can't be trusted with anything!",
+    "author": "Marie Curie"
+  },
+  {
+    "id": 14,
+    "image": "humor_image14.jpg",
+    "quote": "I used to be a baker because I kneaded dough.",
+    "author": "Gordon Ramsay"
+  },
+  {
+    "id": 15,
+    "image": "humor_image15.jpg",
+    "quote": "I told my wife she should embrace her mistakes. She gave me a hug.",
+    "author": "Sigmund Freud"
+  },
+  {
+    "id": 16,
+    "image": "humor_image16.jpg",
+    "quote": "I used to play piano by ear, but now I use my hands and fingers.",
+    "author": "Ludwig van Beethoven"
+  },
+  {
+    "id": 17,
+    "image": "humor_image17.jpg",
+    "quote": "I told my wife she should embrace her mistakes. She gave me a hug.",
+    "author": "Sigmund Freud"
+  },
+  {
+    "id": 18,
+    "image": "humor_image18.jpg",
+    "quote": "I only know 25 letters of the alphabet. I don't know y.",
+    "author": "George Carlin"
+  },
+  {
+    "id": 19,
+    "image": "humor_image19.jpg",
+    "quote": "Why don't scientists trust atoms? Because they can't be trusted with anything!",
+    "author": "Marie Curie"
+  },
+  {
+    "id": 20,
+    "image": "humor_image20.jpg",
+    "quote": "I used to be a baker because I kneaded dough.",
+    "author": "Gordon Ramsay"
+  },
+  {
+    "id": 21,
+    "image": "humor_image21.jpg",
+    "quote": "Why do programmers prefer dark mode? Because light attracts bugs.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 22,
+    "image": "humor_image22.jpg",
+    "quote": "I asked the librarian if the library had any books on paranoia. She whispered, 'They're right behind you.'",
+    "author": "Neil Gaiman"
+  },
+  {
+    "id": 23,
+    "image": "humor_image23.jpg",
+    "quote": "Why don't scientists trust atoms? Because they make up everything!",
+    "author": "Richard Feynman"
+  },
+  {
+    "id": 24,
+    "image": "humor_image24.jpg",
+    "quote": "I'm on a whiskey diet. I've lost three days already.",
+    "author": "W.C. Fields"
+  },
+  {
+    "id": 25,
+    "image": "humor_image25.jpg",
+    "quote": "Why did the scarecrow win an award? Because he was outstanding in his field!",
+    "author": "Maya Angelou"
+  },
+  {
+    "id": 26,
+    "image": "humor_image26.jpg",
+    "quote": "I told my wife she was drawing her eyebrows too high. She looked surprised.",
+    "author": "Mark Twain"
+  },
+  {
+    "id": 27,
+    "image": "humor_image27.jpg",
+    "quote": "Why don't skeletons fight each other? They don't have the guts!",
+    "author": "Ambrose Bierce"
+  },
+  {
+    "id": 28,
+    "image": "humor_image28.jpg",
+    "quote": "Parallel lines have so much in common. It's a shame they'll never meet.",
+    "author": "George Carlin"
+  },
+  {
+    "id": 29,
+    "image": "humor_image29.jpg",
+    "quote": "I used to play piano by ear, but now I use my hands and fingers.",
+    "author": "Ludwig van Beethoven"
+  },
+  {
+    "id": 30,
+    "image": "humor_image30.jpg",
+    "quote": "I'm reading a book on anti-gravity. It's impossible to put down!",
+    "author": "Isaac Newton"
+  },
+];
+
 
 export const insanityquotes = [
     {
